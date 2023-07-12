@@ -16,13 +16,14 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "Leila_Freitag_complete_CV.pdf", title: "CV"}
   - {file: "index.html"} 
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lfreitag@mit.edu"}
   - {title: Github, icon: github, url: "https://github.com/leilafreitag"}
-  #- {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/leila-freitag"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
